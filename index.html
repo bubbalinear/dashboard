@@ -54,24 +54,22 @@ double-click to open it with you browser. Bro. PoiPoi.  Bro.
          that the feedId. If the 'updateApiKey' attribute is set to null, the
          xivelyMasterApiKey is used instead.
          
-         
          initInputSelection({
-            xivelyMasterApiKey:        'poipoi',
+            xivelyMasterApiKey:        'myXivelyMasterApiKey',
             xivelyFeeds:          [
                {
-                  'feedId':            '412065125',
+                  'feedId':            'myFeedId1',
                   'readApiKey':        null,
-                  'updateApiKey':      null,
+                  'updateApiKey':      'myUpdateKey1',
                },
                {
-                  'feedId':            '1498459599',
-                  'readApiKey':        null,
+                  'feedId':            'myFeedId2',
+                  'readApiKey':        'myReadKey2',
                   'updateApiKey':      null,
                },
             ]
-         });
-         
-         
+         });         
+
          To always read data from the Google Spreadsheet 'mySpreadsheetKey'
          and the worksheet 'myWorksheet', use:
          
